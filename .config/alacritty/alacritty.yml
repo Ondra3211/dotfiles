@@ -882,4 +882,4 @@ font:
   #highlight_damage: false
 
 import:
-  - ~/.alacritty-colorscheme/themes/hyper.yaml
+  - ~/.config/alacritty/themes/hyper.yaml
