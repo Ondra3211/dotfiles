@@ -1,7 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-/*    font-family: FontAwesome, Roboto, Helvetica, Arial, "Font Awesome 6 Free", sans-serif;*/
-    font-family: "Cascadia Code", "Font Awesome 6 Free";
+    font-family: NotoSansM Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
 
@@ -73,6 +72,15 @@ button:hover {
     border-bottom: 3px solid #ffffff;
 }
 
+#clock,
+#pulseaudio,
+#wireplumber,
+#tray,
+#mode {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
 #window,
 #workspaces {
     margin: 0 4px;
@@ -99,8 +107,4 @@ label:focus {
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
     background-color: #eb4d4b;
-}
-
-#clock {
-   font-size: 15px;
 }
