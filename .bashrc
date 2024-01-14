@@ -66,6 +66,7 @@ alias grep='grep --color=auto'
 alias nano='nano --rcfile ~/.config/nano/nanorc'
 alias ls='exa --group-directories-first --icons'
 alias ll='exa -la --group-directories-first --icons'
+alias vim='nvim'
 
 if [[ $TERM == "xterm-kitty" ]]; then
    alias ssh="kitty +kitten ssh"
